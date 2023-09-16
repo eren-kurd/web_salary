@@ -1,0 +1,122 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #000000;
+}
+section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: space-between;
+
+}
+.data{
+    box-shadow: 0px 0px 10px #17181a;
+   height: fit-content;
+    transition: .4s all;
+    width: 36%;
+    background: #1C1D1F;
+    border-radius: 16px;
+    padding: 20px;
+}
+.data input{
+    width: 70%;
+        color: gray;
+        background: #17181a;
+        border: none;
+        padding: 10px;
+        border-radius: 10px;
+
+}
+.data button{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border:none;
+    background-color:black ;
+    transition: .8s all;
+    color: white;
+    transition: .4s all;
+    padding: 6px;
+    box-shadow: 0px 0px 6px black-;
+    border-radius: 9px;
+
+}
+.data button:active{
+    border:none;
+    box-shadow: inset 0px 0px 6px white;
+    background-image: linear-gradient(to right,black,grey);
+    color: white;
+    padding: 6px;
+    border-radius: 9px;
+
+}
+.show{
+ 
+    
+}
+table{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 300px;
+    height: fit-content;
+   
+}
+table tr{
+    display: flex;
+justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+}
+table tr:nth-of-type(even){
+    background-color: rgba(180, 180, 180, 0.5);
+}
+table tr td{
+    padding: 10px;
+    color: white;
+}
+table th{
+    background-color: rgb(1, 100, 39);
+
+    padding: 10px 7px;
+    width: 100%;
+    color: white;
+}
+table th:last-of-type{
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+table th:first-of-type{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+ 
+navbar{
+    align-content: end;
+    clear: both;
+    position: relative;
+    margin-top: auto;
+    color: white;
+    height:50%;
+    float: inline-end;
+    font-family: 'Courier New', Courier, monospace;
+   
+}
+navbar .names{
+    transform: rotateY(300px);
+    display: flex;
+    justify-content: space-evenly;
+  
+}
+navbar .names div{
+   font-size: 0.6rem;
+  transition: .5s;
+  
+}
+navbar .names div:hover{
+    text-shadow: 0px 0px 10px white;
+    background-color:#1C1D1F;
+    border-radius: 10px;
+  
+}
